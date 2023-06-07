@@ -1,0 +1,414 @@
+/********************************* Whole Site CSS *********************************/
+.site-body {
+    display: flex;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: .5em;
+}
+
+::-webkit-scrollbar-thumb {
+    background: hsl(0, 0%, 50%, 80%);
+    border-radius: 100vw;
+}
+
+/********************************* Header CSS *********************************/
+.site-header-container {
+    height: 43px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    position: sticky;
+    top: 0px;
+    z-index:1000;
+    background-color: white;
+}
+
+.site-header {
+    display: flex;
+}
+
+/********************************* Hamburger Menu CSS *********************************/
+.hamburger-menu-container {
+    width: 28px;
+    height: 28px;
+    padding: 5px;
+    padding-left: 6px;
+    margin-top: 4px;
+    margin-left: 7px;
+    border-radius: 50%;
+    align-items: center;
+}
+
+.hamburger-menu-container:hover {
+    background-color: #c0c0c054;
+    cursor: pointer;
+}
+
+.hamburger-menu {
+    width: 100%;
+}
+
+/********************************* Site Logo CSS *********************************/
+.logo-container {
+    display: flex;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.site-logo {
+    margin-top: 10px;
+    width: 29px;
+}
+
+.site-logo-text {
+    margin-top: 6px;
+    margin-bottom: 0px;
+    margin-left: 3px;
+    font-size: 24px;
+    font-family:'Pathway Gothic One', 'Arial Narrow', Arial, sans-serif;
+}
+
+/********************************* Search Bar CSS *********************************/
+.site-search-bar-container {
+    display: flex;
+    margin-left: auto;
+}
+
+.search-bar-border {
+    height: 38px;
+    width: 540px;
+    border: solid 1px;
+    border-radius: 40px 0 0 40px;
+    border-color: #2c2c2c60;
+}
+
+.site-search-input {
+    margin-top: 6px;
+    margin-left: 15px;
+    width: 475px;
+    height: 25px;
+    font-size: 16px;
+    font-weight: 100;
+    border: none;
+}
+
+.site-search-input:focus {
+    outline: none;
+}
+
+.search-button {
+    width: 60px;
+    height: 40px;
+    border: solid 1px;
+    border-left: none;
+    border-radius: 0 40px 40px 0;
+    border-color: #2c2c2c60;
+}
+
+.search-button:hover {
+    box-shadow: 0px 1px 10px 2px #d6d6d679;
+    background-color: #d6d6d679;
+    cursor: pointer;
+}
+
+.search-icon {
+    width: 22px;
+}
+
+.microphone-icon {
+    width: 22px;
+    height: 22px;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+.microphone-icon:hover {
+    background-color: #c0c0c054;
+    cursor: pointer;
+}
+
+/********************************* Sign In Button CSS *********************************/
+.sign-in-container {
+    display: flex;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.sign-in-dots-menu {
+    width: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.sign-in-button {
+    display: flex;
+    width: 95px;
+    height: 35px;
+    margin-top: 2px;
+    border: solid 1px;
+    border-color: #d6d6d6;
+    background-color: white;
+    border-radius: 40px;
+}
+
+.sign-in-button:hover {
+    display: flex;
+    width: 95px;
+    height: 35px;
+    margin-top: 2px;
+    border: solid 1px;
+    border-color: #B8DBED;
+    background-color: #B8DBED;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.user-icon {
+    width: 22px;
+    margin-top: 4px;
+    margin-right: 7px;
+    margin-left: 3px;
+}
+
+.sign-in-text {
+    color: #166ED9;
+    margin-top: 6px;
+    font-family: 'Roboto', 'sans serif';
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/********************************* Sidebar CSS *********************************/
+.sidebar-container {
+    width: 235px;
+    height: 92.5vh;
+    padding-top: 5px;
+    overflow-y: scroll;
+    position: fixed;
+}
+
+/********************************* Sidebar Button CSS *********************************/
+.sidebar-button {
+    display: flex;
+    width: 205px;
+    height: 40px;
+    margin-left: 10px;
+    padding-left: 15px;
+    border: none;
+    background-color: transparent;
+}
+
+.sidebar-button:hover {
+    display: flex;
+    width: 205px;
+    height: 40px;
+    margin-left: 10px;
+    padding-left: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #c0c0c02d;
+    cursor: pointer;
+}
+
+.sidebar-button-img-container {
+    width: 20px;
+    height: 20px;
+    margin-right: 25px;
+}
+
+.sidebar-button-img {
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+}
+
+.sidebar-button-text {
+    margin-top: 11px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+/********************************* Sidebar Divider CSS *********************************/
+.sidebar-divider {
+    width: 220px;
+    margin: 12px 0 12px 0;
+    border-color: #d6d6d635;
+}
+
+/********************************* Sidebar Title CSS *********************************/
+.sidebar-title-text {
+    margin-left: 25px;
+    margin-top: 18px;
+    margin-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+/********************************* Sidebar Note CSS *********************************/
+.sidebar-notes-container {
+    width: 165px;
+    margin: 18px 0 15px 30px;
+    line-height: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sidebar-note {
+    font-size: 14px;
+}
+
+/********************************* Sidebar Footer CSS *********************************/
+.sidebar-footer {
+    margin-left: 20px;
+    padding-bottom: 16px;
+}
+
+.sidebar-footer-top {
+    width: 175px;
+}
+
+.sidebar-footer-bottom {
+    margin-top: 10px;
+}
+
+.sidebar-footer-button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 9.5pt;
+    font-weight: bold;
+    color: rgb(92, 92, 92);
+    padding: 0px;
+    margin: 0px 4px 0px 4px;
+    border: none;
+    background-color: transparent;
+}
+
+.sidebar-footer-copyright {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 15px;
+    margin-left: 4px;
+    font-size: 12px;
+    color: rgb(143, 143, 143);
+}
+
+/********************************* Main Body CSS *********************************/
+.main-content {
+    margin-left: 250px;
+}
+
+/********************************* Filter Buttons CSS *********************************/
+.filter-buttons-container {
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index:999;
+    margin-top: 8px;
+    margin-left: 14px;
+    margin-bottom: 35px;
+    background-color: white;
+}
+
+.filter-button {
+    display: flex;
+    height: 32px;
+    min-width: 12px;
+    white-space: nowrap;
+    text-align: center;
+    align-items: center;
+    padding: 0 12px;
+    margin-right: 14px;
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 0.85rem;
+    font-weight: 400;
+    border: none;
+    border-radius: 8px;
+    background-color: #eeeded;
+}
+
+.filter-button:hover {
+    cursor: pointer;
+    background-color: #d6d6d6e0;
+}
+
+/********************************* Video Row CSS *********************************/
+.video-row-container {
+    display: flex;
+    margin-left: 48px;
+}
+
+.video-info-container {
+    height: 320px;
+    width: 365px;
+    margin-right: 13px;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.video-img-container {
+    height: 200px;
+    width: 360px;
+    border-radius: 12px;
+    background-color: #6c6c6c;
+}
+
+.video-img {
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.video-details {
+    display: flex;
+}
+
+.video-author-img {
+    margin-top: 10px;
+    width: 35px;
+    height: 35px;
+    background-color: #6c6c6c;
+    border-radius: 50%;
+}
+
+.video-title-author {
+    margin-left: 8px;
+}
+
+.video-title {
+    width: 285px;
+    max-height: 42px;
+    margin-top: 13px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    font-weight: 600;
+    font-size: 12pt;
+    line-height: 22px;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.video-author {
+    margin-top: 6px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+    font-size: 10.5pt;
+    color: #6c6c6c;
+}
+
+.video-views-date-posted {
+    margin-top: 3px;
+    margin-left: 5px;
+    font-size: 10.5pt;
+    color: #6c6c6c;
+}
+
+.video-details-dots-menu {
+    margin-top: 12px;
+    margin-left: auto;
+    margin-right: 2px;
+    width: 20px;
+    height: 25px;
+}
